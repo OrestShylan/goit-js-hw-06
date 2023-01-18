@@ -34,7 +34,6 @@ function handleSubmit(event) {
      return alert('Увгаа ! Ви щось пропустили ! ');
   }
 
- console.log(`Email: ${email.value}
- Password: ${password.value}`);
+  console.log({email: email.value, password: password.value});
   event.currentTarget.reset();
-}
+ }
