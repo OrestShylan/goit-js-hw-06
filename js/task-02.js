@@ -16,5 +16,6 @@ for (const ingridient of ingredients){
   liEl.classList.add('item'); 
   liEl.textContent = ingridient;
   ulEl.appendChild(liEl); 
+  
 
 }
